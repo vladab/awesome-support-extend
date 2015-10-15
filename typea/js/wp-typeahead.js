@@ -7,5 +7,7 @@ jQuery(function() {
                 '<p><a class="qr_voucher_url" rel="{{slug}}" href="{{url}}">{{value}}</a></p>',
             ].join(''),
             engine: Hogan
-        });
+        }).bind('typeahead:selected', function (obj, ticket) {
+            window.location.href = ticket.url;
+        });;;
 });

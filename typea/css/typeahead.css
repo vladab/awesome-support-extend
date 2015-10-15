@@ -70,7 +70,9 @@
 .tt-suggestion p {
 	margin: 0;
 	}
-
+.qick_redee_input .twitter-typeahead {
+	width: 80%;
+}
 /* rtl support */
 .twitter-typeahead.tt-rtl {
 	direction: rtl;
@@ -148,5 +150,8 @@
 	border-radius: 0px !important;
 	margin-left: 10px;
 	padding: 0px;
-	margin-top: 0px !important;
+	margin-top: -10px !important;
+}
+#quick_search_ticket_input {
+	width: 300px;
 }

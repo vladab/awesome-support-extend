@@ -50,7 +50,7 @@ function wpdt_wpas_before_tickets_list(){
         if ( $wpas_tickets->have_posts() ) {
             while( $wpas_tickets->have_posts() ) {
                 $wpas_tickets->the_post();
-                $url = site_url() . "/ticket/" . get_the_title();
+                $url = site_url() . "/ticket/" . get_post_field( 'post_name', get_post() );
                 $return_value = get_the_title();
 
                 $results[] = array(
