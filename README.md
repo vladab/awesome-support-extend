@@ -11,3 +11,5 @@ Extending Awesome Support Plugin
 – Front-end search within tickets (the best would be to have an AJAX search) - by name, content and direct search by ticket number;
 
 – Ability for people to see and read other people tickets (it's better to allow to see only closed, but as a first solution we can show even open tickets);
+
+- Enable to edit other users tickets by administrator(Useful when a user sends you account information that you don't want to be available publicly )
